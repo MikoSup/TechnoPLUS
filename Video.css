@@ -1,0 +1,132 @@
+
+body{
+      background-image:url(pizza.jpg);
+	  padding:0;
+	  margin:0;
+	  min-height:100vh;
+	 
+}
+
+#myNav{ 
+        width:80%;
+		height:180%;
+		background-color:rgba(255, 255,0, .8);
+		margin-left:10%; 
+		
+}
+
+
+footer{
+      position:bottom;
+      margin-left:10%;
+      width:80%;
+      height:60%;	  
+}
+
+p, address{
+      text-align:center;
+	  color:blue;
+	  
+}
+
+#Pied{
+      background-color:rgba(0, 0, 0, .8);
+	  height:50%;
+	  width:125%;
+	  padding-top:5%;
+	  margin-left:-12.5%;
+}
+#FR{
+    background-color:rgba(255, 0, 0, .3);
+	width:80%;
+	margin-top:85%;
+	height:6%;
+	 width:125%;
+	margin-left:-12.5%;
+	position:top;
+}
+
+.icon{
+     display:flex;
+}
+.navBar{
+list-style:none;
+background: rgba(1, 1, 1, .3);
+text-align:center;
+padding:0;
+margin-left:14%;
+margin-bottom:1%;
+width:85%;
+height:3%;
+margin-top:-6%;
+border-radius: 10px; 	
+ }
+.navBar li{
+display: inline-block;
+padding-left:0;
+padding-top:-8%;
+font-size:80%;
+}
+
+.navBar a{
+text-decoration:none;
+color: blue;
+width: 100px;
+display:block;
+padding: 10px;
+margin-right:10px;
+font-size: sans-serif;
+padding-top:-10%;
+margin:0 10px;
+}
+
+@media screen and (min-width: 1300px){
+  .navBar { width: 85%}
+}
+@media screen and (max-width: 1999px){
+  .navBar a{ width: 100%}
+}
+@media screen and (min-width: 200px){
+  .navBar li{ height: 10%}
+}
+
+header{
+    background-color: inherit;
+
+   margin: 0;
+    color:white;
+    
+    top:0;
+    left:0;
+    right:0;
+    
+   
+}
+
+.nav1{
+  margin-left: 10%;
+}
+
+.nav_header {
+
+    text-align: right;
+    position: fixed;
+    top: 0;
+  background-color: rgb(238, 81, 81);
+    right:0;
+    left: 0;
+
+    
+}
+.nav_header a:hover{
+    color: rgb(235, 163, 163);
+    text-decoration:underline;
+}
+.nav_header a{
+     
+  
+}
+.video{
+   margin-left:10%;
+   padding-top:15%;
+  }

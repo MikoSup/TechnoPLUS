@@ -1,0 +1,224 @@
+body{
+      background-image:url(pizza.jpg);
+	  padding:0;
+	  margin:0;
+	  min-height:100vh;
+	 
+}
+#myNav{ 
+        width:80%;
+		height:200%;
+		background-color:rgba(255, 255,0, .8);
+		margin-left:10%; 
+		
+}
+footer{
+      position:bottom;
+      width:100%;
+      height:48%;	  
+}
+
+
+#Pied{
+      background-color:rgba(0, 0, 0, .8);
+	  height:40%;
+	  padding-top:5%;
+	  
+}
+#FR{
+    background-color:rgba(255, 0, 0, .3);
+	margin-top:49.5%;
+	height:8%;
+	position:top;
+}
+
+.icon{
+     display:flex;
+}
+.navBar{
+list-style:none;
+background: rgba(1, 1, 1, .3);
+text-align:center;
+padding:0;
+margin-left:14%;
+margin-bottom:1%;
+width:85%;
+height:3%;
+margin-top:-6%;
+border-radius: 10px; 	
+ }
+.navBar li{
+display: inline-block;
+padding-left:0;
+padding-top:-8%;
+font-size:80%;
+}
+
+.navBar a{
+text-decoration:none;
+color: blue;
+width: 100px;
+display:block;
+padding: 10px;
+margin-right:10px;
+font-size: sans-serif;
+padding-top:-10%;
+margin:0 10px;
+}
+
+@media screen and (min-width: 1300px){
+  .navBar { width: 85%}
+}
+@media screen and (max-width: 1999px){
+  .navBar a{ width: 100%}
+}
+@media screen and (min-width: 200px){
+  .navBar li{ height: 10%}
+}
+
+header{
+    background-color: inherit;
+
+   margin: 0;
+    color:white;
+    
+    top:0;
+    left:0;
+    right:0;
+    
+   
+}
+
+.nav1{
+  margin-left: 10%;
+}
+.nav_header {
+
+    text-align: right;
+    position: fixed;
+    top: 0;
+  background-color: rgb(238, 81, 81);
+    right:0;
+    left: 0;
+
+    
+}
+.nav_header a:hover{
+    color: rgb(235, 163, 163);
+    text-decoration:underline;
+}
+.nav_header a{
+     
+  
+}
+/*************MAGASIN************/
+#hp{
+    text-align:center;
+	margin-top:5%;
+	color: white;
+	font-size:169%;
+
+}
+section{
+     width:80%;
+	 padding:0;
+	 display:flex;
+	 height:33%;
+}
+.GAUCHE{
+        width:50%;
+		padding-top:2%;
+		padding-left:10%;
+		padding-right:5%;
+		margin:0;
+		height:100%;
+}
+.DROITE{
+        width:100%;
+		display:flex;
+		margin-right:15%;
+		
+}
+
+.pipo{
+      
+	  margin:auto;
+	  margin-top:6%;
+	   padding:10%;
+	   padding-top:5%;
+}
+
+/*INDEX*/
+#IMMAG1{ border: 2px solid white;}
+#IMMAG2{
+   position:absolute;
+   transform: skew(15deg, 20deg);
+			z-index:1;
+			top:160px;
+			left:190.5px;
+	border-top: 3px solid white;
+	border-left: 3px solid white;
+}
+#IMMAG3{
+    position:absolute;
+   transform: skew(17deg, 23deg);
+			z-index:3;
+			top:740px;
+			left:240px;
+}
+#IMMAG4{
+   position:absolute;
+   transform: skew(17deg, 23deg);
+			z-index:3;
+			top:800px;
+			left:290px;
+	border-right:3px solid white;
+	border-bottom:3px solid white;
+}	
+.Block{
+     
+
+}
+
+	.GT{
+     width:180%;
+	 height:65%;
+	 background-color:transparent;
+	 background-position:center;
+	 margin-right:10%;
+	 margin-top:5%;
+	 padding-top:0.1%;	
+	 border-radius:2%;
+	
+	 border-top:2px solid white;
+     border-left:2px solid white;
+	 border-bottom:2px solid white;
+	
+}
+
+#pho{
+     width:85%;
+	 height:89%;
+	 background-color:transparent;
+	 background-position:center;
+	 margin-left:10%;
+	 margin-top:5%;
+	 padding-top:0.1%;
+	 	border-bottom:p3x solid white;
+	border-left:3px solid white;
+	border-radius:3%;
+}
+
+#pha{
+     width:85%;
+	 height:85%;
+	 background-color:rgba(255, 255,255, .4);
+	 background-position:center;
+	  margin-left:10%;
+	 margin-top:10%;
+	border-left:3px solid rgba(0, 0,0, .5);
+	border-bottom:3px solid rgba(0, 0,0, .5);
+	border-radius:3%;
+
+}
+
